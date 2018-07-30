@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="66" height="64">
+  <style>
+    .st1{fill:none;stroke:#0063ae;stroke-linecap:square}
+  </style>
+  <defs>
+    <path id="SVGID_1_" d="M46.5 64.7l-3.2-12.1H22.4l-3.3 12.1H0L21 0h23.2l21.3 64.7h-19zm-6.8-26.4l-2.8-10.6c-.6-2.4-1.4-5.4-2.4-9.1-.9-3.7-1.5-6.4-1.8-8-.3 1.5-.8 4-1.6 7.4S28.7 28.2 26 38.3h13.7z"/>
+  </defs>
+  <clipPath id="SVGID_2_">
+    <use overflow="visible" xlink:href="#SVGID_1_"/>
+  </clipPath>
+  <g id="Page-1_1_" clip-path="url(#SVGID_2_)" opacity=".9">
+    <g id="agile_1_" transform="translate(1 1)">
+      <path d="M0 62.7h65" class="st1"/>
+      <path d="M0 60.7h65" class="st1"/>
+      <path d="M0 58.7h65" class="st1"/>
+      <path d="M0 56.7h65" class="st1"/>
+      <path d="M0 54.7h65" class="st1"/>
+      <path d="M0 52.7h65" class="st1"/>
+      <path d="M0 50.7h65" class="st1"/>
+      <path d="M0 48.7h65" class="st1"/>
+      <path d="M0 46.7h65" class="st1"/>
+      <path d="M0 44.7h65" class="st1"/>
+      <path d="M0 42.7h65" class="st1"/>
+      <path d="M0 40.7h65" class="st1"/>
+      <path d="M0 38.7h65" class="st1"/>
+      <path d="M0 36.7h65" class="st1"/>
+      <path d="M0 34.7h65" class="st1"/>
+      <path d="M0 32.7h65" class="st1"/>
+      <path d="M0 30.7h65" class="st1"/>
+      <path d="M0 28.7h65" class="st1"/>
+      <path d="M0 26.7h65" class="st1"/>
+      <path d="M0 24.7h65" class="st1"/>
+      <path d="M0 22.7h65" class="st1"/>
+      <path d="M0 20.7h65" class="st1"/>
+      <path d="M0 18.7h65" class="st1"/>
+      <path d="M0 16.7h65" class="st1"/>
+      <path d="M0 14.7h65" class="st1"/>
+      <path d="M0 12.7h65" class="st1"/>
+      <path d="M0 10.7h65" class="st1"/>
+      <path d="M0 8.7h65" class="st1"/>
+      <path d="M0 6.7h65" class="st1"/>
+      <path d="M0 4.7h65" class="st1"/>
+      <path d="M0 2.7h65" class="st1"/>
+      <path d="M0 .7h65" class="st1"/>
+    </g>
+  </g>
+</svg>

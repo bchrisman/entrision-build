@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="137px" height="73px" viewBox="0 0 137 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>Illustration - Web Applications</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="9.47340426" y="21.9" width="30.606383" height="30.66"></rect>
+        <path d="M26.2340426,18.25 L26.2340426,14.6 C26.2340426,12.9873285 20.3613521,11.68 13.1170213,11.68 C5.87269046,11.68 0,12.9873285 0,14.6 L0,18.25 C0,19.8626715 5.87269046,21.17 13.1170213,21.17 C20.3613521,21.17 26.2340426,19.8626715 26.2340426,18.25 Z" id="path-2"></path>
+        <path d="M26.2340426,14.6 L26.2340426,10.95 C26.2340426,9.33732853 20.3613521,8.03 13.1170213,8.03 C5.87269046,8.03 0,9.33732853 0,10.95 L0,14.6 C0,16.2126715 5.87269046,17.52 13.1170213,17.52 C20.3613521,17.52 26.2340426,16.2126715 26.2340426,14.6 Z" id="path-3"></path>
+        <path d="M26.2340426,10.95 L26.2340426,7.3 C26.2340426,5.68732853 20.3613521,4.38 13.1170213,4.38 C5.87269046,4.38 0,5.68732853 0,7.3 L0,10.95 C0,12.5626715 5.87269046,13.87 13.1170213,13.87 C20.3613521,13.87 26.2340426,12.5626715 26.2340426,10.95 Z" id="path-4"></path>
+        <path d="M26.2340426,7.3 L26.2340426,3.65 C26.2340426,2.03732853 20.3613521,0.73 13.1170213,0.73 C5.87269046,0.73 0,2.03732853 0,3.65 L0,7.3 C0,8.91267147 5.87269046,10.22 13.1170213,10.22 C20.3613521,10.22 26.2340426,8.91267147 26.2340426,7.3 Z" id="path-5"></path>
+        <ellipse id="path-6" cx="13.1170213" cy="3.285" rx="13.1170213" ry="3.285"></ellipse>
+    </defs>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-Mobile_Portrait" transform="translate(-92.000000, -1193.000000)">
+            <g id="Illustration---Web-Applications" transform="translate(92.000000, 1193.000000)">
+                <g id="Icon---Web-Applications">
+                    <rect id="Rectangle-3" stroke="#0063AE" x="0.5" y="0.5" width="93.7340426" height="72" rx="2"></rect>
+                    <path d="M0.728723404,8.76 L94.0053191,8.76" id="Line" stroke="#0063AE" stroke-linecap="square"></path>
+                    <g id="Rectangle-5">
+                        <use fill-opacity="0.1" fill="#0063AE" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        <rect stroke="#0063AE" stroke-width="1" x="9.97340426" y="22.4" width="29.606383" height="29.66"></rect>
+                    </g>
+                    <rect id="Rectangle-5-Copy" stroke="#0063AE" x="46.4095745" y="45.03" width="7.74468085" height="2.65"></rect>
+                    <rect id="Rectangle-5-Copy-2" stroke="#0063AE" x="58.7978723" y="45.03" width="7.74468085" height="2.65"></rect>
+                    <g id="Group-3" transform="translate(45.909574, 26.280000)" stroke="#0063AE" stroke-linecap="square">
+                        <path d="M0,0.73 L36.4361702,0.73" id="Line-Copy"></path>
+                        <path d="M-3.55271368e-15,6.57 L34.9787234,6.57" id="Line-Copy-4"></path>
+                        <path d="M-3.55271368e-15,3.65 L33.5212766,3.65" id="Line-Copy-2"></path>
+                        <path d="M0,9.49 L34.9787234,9.49" id="Line-Copy-3"></path>
+                        <path d="M0,12.41 L30.606383,12.41" id="Line-Copy-5"></path>
+                    </g>
+                    <rect id="Rectangle-4" stroke="#0063AE" x="26.0053191" y="2.69" width="43.4521277" height="3.38" rx="1.69"></rect>
+                    <path d="M75.0585106,46.72 L110.037234,46.72" id="Line" stroke="#979797" stroke-linecap="square" stroke-dasharray="4,6"></path>
+                    <path d="M88.9042553,32.85 L110.037234,32.85" id="Line-Copy-6" stroke="#979797" stroke-linecap="square" stroke-dasharray="4,6"></path>
+                    <g id="Group-4" transform="translate(110.765957, 29.200000)">
+                        <g id="Combined-Shape">
+                            <use fill="#E6E6E6" fill-rule="evenodd" xlink:href="#path-2"></use>
+                            <path stroke="#979797" stroke-width="1" d="M25.7340426,18.25 C25.7340426,19.392876 19.9970346,20.67 13.1170213,20.67 C6.23700797,20.67 0.5,19.392876 0.5,18.25 L0.5,14.6 C0.5,13.457124 6.23700797,12.18 13.1170213,12.18 C19.9970346,12.18 25.7340426,13.457124 25.7340426,14.6 L25.7340426,18.25 Z"></path>
+                        </g>
+                        <g id="Combined-Shape">
+                            <use fill="#E6E6E6" fill-rule="evenodd" xlink:href="#path-3"></use>
+                            <path stroke="#979797" stroke-width="1" d="M25.7340426,14.6 C25.7340426,15.742876 19.9970346,17.02 13.1170213,17.02 C6.23700797,17.02 0.5,15.742876 0.5,14.6 L0.5,10.95 C0.5,9.80712405 6.23700797,8.53 13.1170213,8.53 C19.9970346,8.53 25.7340426,9.80712405 25.7340426,10.95 L25.7340426,14.6 Z"></path>
+                        </g>
+                        <g id="Combined-Shape">
+                            <use fill="#E6E6E6" fill-rule="evenodd" xlink:href="#path-4"></use>
+                            <path stroke="#979797" stroke-width="1" d="M25.7340426,10.95 C25.7340426,12.092876 19.9970346,13.37 13.1170213,13.37 C6.23700797,13.37 0.5,12.092876 0.5,10.95 L0.5,7.3 C0.5,6.15712405 6.23700797,4.88 13.1170213,4.88 C19.9970346,4.88 25.7340426,6.15712405 25.7340426,7.3 L25.7340426,10.95 Z"></path>
+                        </g>
+                        <g id="Combined-Shape">
+                            <use fill="#E6E6E6" fill-rule="evenodd" xlink:href="#path-5"></use>
+                            <path stroke="#979797" stroke-width="1" d="M25.7340426,7.3 C25.7340426,8.44287595 19.9970346,9.72 13.1170213,9.72 C6.23700797,9.72 0.5,8.44287595 0.5,7.3 L0.5,3.65 C0.5,2.50712405 6.23700797,1.23 13.1170213,1.23 C19.9970346,1.23 25.7340426,2.50712405 25.7340426,3.65 L25.7340426,7.3 Z"></path>
+                        </g>
+                        <g id="Oval-3-Copy-2">
+                            <use fill="#E6E6E6" fill-rule="evenodd" xlink:href="#path-6"></use>
+                            <ellipse stroke="#979797" stroke-width="1" cx="13.1170213" cy="3.285" rx="12.6170213" ry="2.785"></ellipse>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
