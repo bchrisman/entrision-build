@@ -7572,10 +7572,6 @@ h1, h2, h3, h4, h5, h6 {
     background-size: cover;
     color: #FFFFFF;
     height: 100vh; }
-    @media screen and (-webkit-min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-      .home__hero {
-        background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 99, 174, 0.95)), to(rgba(0, 99, 174, 0.75))), url("../images/jpg/hero@2x.jpg") no-repeat;
-        background: linear-gradient(rgba(0, 99, 174, 0.95), rgba(0, 99, 174, 0.75)), url("../images/jpg/hero@2x.jpg") no-repeat; } }
     @media screen and (min-width: 1441px) {
       .home__hero {
         background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 99, 174, 0.95)), to(rgba(0, 99, 174, 0.75))), url("../images/jpg/hero@2x.jpg") no-repeat;
@@ -7583,13 +7579,15 @@ h1, h2, h3, h4, h5, h6 {
     @media screen and (min-width: 768px) and (max-width: 991px) {
       .home__hero {
         background-size: cover;
-        height: 66rem;
-        width: 100%; } }
+        height: 100vh;
+        width: 100vw; } }
     @media screen and (max-width: 767px) {
       .home__hero {
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 99, 174, 0.95)), to(rgba(0, 99, 174, 0.75))), url("../images/jpg/hero-small.jpg") no-repeat;
+        background: linear-gradient(rgba(0, 99, 174, 0.95), rgba(0, 99, 174, 0.75)), url("../images/jpg/hero-small.jpg") no-repeat;
         background-size: cover;
-        height: 66rem;
-        width: 100%; } }
+        height: 100vh;
+        width: 100vw; } }
   .home__heroWrapper {
     height: 100%;
     margin: auto;
@@ -8126,36 +8124,48 @@ h1, h2, h3, h4, h5, h6 {
 
 .heading {
   background: #F7F7F7;
-  color: #4A4A4A;
+  background-size: cover !important;
+  color: #FFFFFF;
   font-size: 1.6rem;
+  min-height: 100vh;
   position: relative; }
   .heading--work {
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(247, 247, 247, 0.95)), to(rgba(247, 247, 247, 0.75))), url("../images/jpg/work.jpg") no-repeat;
-    background: linear-gradient(rgba(247, 247, 247, 0.95), rgba(247, 247, 247, 0.75)), url("../images/jpg/work.jpg") no-repeat;
-    color: #FFFFFF;
-    height: 100vh; }
+    background: linear-gradient(rgba(247, 247, 247, 0.95), rgba(247, 247, 247, 0.75)), url("../images/jpg/work.jpg") no-repeat; }
     @media screen and (-webkit-min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
       .heading--work {
         background: -webkit-gradient(linear, left top, left bottom, from(rgba(247, 247, 247, 0.95)), to(rgba(247, 247, 247, 0.75))), url("../images/jpg/work@2x.jpg") no-repeat;
         background: linear-gradient(rgba(247, 247, 247, 0.95), rgba(247, 247, 247, 0.75)), url("../images/jpg/work@2x.jpg") no-repeat; } }
+    @media screen and (max-width: 767px) {
+      .heading--work {
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(247, 247, 247, 0.95)), to(rgba(247, 247, 247, 0.75))), url("../images/jpg/work-small.jpg") no-repeat;
+        background: linear-gradient(rgba(247, 247, 247, 0.95), rgba(247, 247, 247, 0.75)), url("../images/jpg/work-small.jpg") no-repeat; } }
   .heading--ourTeam {
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(247, 247, 247, 0.95)), to(rgba(247, 247, 247, 0.75))), url("../images/jpg/ourTeam.jpg") no-repeat;
-    background: linear-gradient(rgba(247, 247, 247, 0.95), rgba(247, 247, 247, 0.75)), url("../images/jpg/ourTeam.jpg") no-repeat;
-    color: #FFFFFF;
-    height: 100vh; }
+    background: linear-gradient(rgba(247, 247, 247, 0.95), rgba(247, 247, 247, 0.75)), url("../images/jpg/ourTeam.jpg") no-repeat; }
     @media screen and (-webkit-min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
       .heading--ourTeam {
         background: -webkit-gradient(linear, left top, left bottom, from(rgba(247, 247, 247, 0.95)), to(rgba(247, 247, 247, 0.75))), url("../images/jpg/ourTeam@2x.jpg") no-repeat;
         background: linear-gradient(rgba(247, 247, 247, 0.95), rgba(247, 247, 247, 0.75)), url("../images/jpg/ourTeam@2x.jpg") no-repeat; } }
+    @media screen and (max-width: 767px) {
+      .heading--ourTeam {
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(247, 247, 247, 0.95)), to(rgba(247, 247, 247, 0.75))), url("../images/jpg/ourTeam-small.jpg") no-repeat;
+        background: linear-gradient(rgba(247, 247, 247, 0.95), rgba(247, 247, 247, 0.75)), url("../images/jpg/ourTeam-small.jpg") no-repeat; } }
+    @media screen and (max-width: 480px) {
+      .heading--ourTeam {
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(247, 247, 247, 0.95)), to(rgba(247, 247, 247, 0.75))), url("../images/jpg/ourTeam-xsmall.jpg") no-repeat;
+        background: linear-gradient(rgba(247, 247, 247, 0.95), rgba(247, 247, 247, 0.75)), url("../images/jpg/ourTeam-xsmall.jpg") no-repeat; } }
   .heading--process {
     background: -webkit-gradient(linear, left top, left bottom, from(#f7f7f7), to(rgba(247, 247, 247, 0.7))), url("../images/jpg/process.jpg") no-repeat;
-    background: linear-gradient(#f7f7f7, rgba(247, 247, 247, 0.7)), url("../images/jpg/process.jpg") no-repeat;
-    color: #FFFFFF;
-    height: 100vh; }
+    background: linear-gradient(#f7f7f7, rgba(247, 247, 247, 0.7)), url("../images/jpg/process.jpg") no-repeat; }
     @media screen and (-webkit-min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
       .heading--process {
-        background: -webkit-gradient(linear, left top, left bottom, from(#f7f7f7), to(rgba(247, 247, 247, 0.7))), url("../images/jpg/process@2x.jpg") no-repeat;
-        background: linear-gradient(#f7f7f7, rgba(247, 247, 247, 0.7)), url("../images/jpg/process@2x.jpg") no-repeat; } }
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(247, 247, 247, 0.95)), to(rgba(247, 247, 247, 0.75))), url("../images/jpg/process@2x.jpg") no-repeat;
+        background: linear-gradient(rgba(247, 247, 247, 0.95), rgba(247, 247, 247, 0.75)), url("../images/jpg/process@2x.jpg") no-repeat; } }
+    @media screen and (max-width: 767px) {
+      .heading--process {
+        background: -webkit-gradient(linear, left top, left bottom, from(#f7f7f7), to(rgba(247, 247, 247, 0.7))), url("../images/jpg/process-small.jpg") no-repeat;
+        background: linear-gradient(#f7f7f7, rgba(247, 247, 247, 0.7)), url("../images/jpg/process-small.jpg") no-repeat; } }
   .heading--gradient {
     background: radial-gradient(circle, rgba(238, 238, 238, 0) 0%, #eee 91%);
     background-color: transparent;
@@ -8421,17 +8431,17 @@ How We Get It Done Section
     .processList__img--blue {
       border-color: #0063AE; } }
   .processList__caption {
-    bottom: -4rem;
+    bottom: -5rem;
     color: #4A4A4A;
     font-size: 1.6rem;
     font-weight: 300;
     left: 0;
     letter-spacing: 0.5px;
     line-height: 22.4px;
-    margin: auto auto auto -10rem;
+    margin: auto auto auto -6rem;
     position: absolute;
     right: 0;
-    max-width: 26rem; }
+    max-width: 18rem; }
     @media screen and (min-width: 992px) and (max-width: 1199px) {
       .processList__caption {
         bottom: -5rem;
@@ -8453,7 +8463,7 @@ How We Get It Done Section
         top: -50%;
         width: 16rem; } }
     .processList__caption--first {
-      bottom: calc(-4rem - 6px); }
+      bottom: -5.5rem; }
       @media screen and (min-width: 992px) and (max-width: 1199px) {
         .processList__caption--first {
           bottom: -5rem; } }
@@ -8461,8 +8471,9 @@ How We Get It Done Section
         .processList__caption--first {
           bottom: 0; } }
     .processList__caption--last {
-      bottom: -6rem;
-      margin: auto; }
+      bottom: -5rem;
+      margin: auto auto auto -6rem;
+      width: 18rem; }
       @media screen and (min-width: 992px) and (max-width: 1199px) {
         .processList__caption--last {
           bottom: -5rem;
@@ -8470,7 +8481,8 @@ How We Get It Done Section
           width: 18rem; } }
       @media screen and (max-width: 991px) {
         .processList__caption--last {
-          bottom: -2rem; } }
+          bottom: -2rem;
+          margin: auto; } }
 
 #oathocracy {
   background: #DE5947;
@@ -9324,7 +9336,8 @@ footer {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-column-gap: 15px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    max-width: 130rem; }
     @media screen and (min-width: 992px) and (max-width: 1199px) {
       .team__row {
         grid-column-gap: 15px;
@@ -9334,36 +9347,12 @@ footer {
       .team__row {
         grid-row-gap: 15px;
         grid-template-columns: 1fr; } }
-    .team__row--smallBlock {
-      -ms-flex-wrap: nowrap;
-          flex-wrap: nowrap; }
-      @media screen and (min-width: 992px) and (max-width: 1199px) {
-        .team__row--smallBlock {
-          -webkit-box-align: start;
-              -ms-flex-align: start;
-                  align-items: flex-start; } }
-      @media screen and (min-width: 768px) and (max-width: 991px) {
-        .team__row--smallBlock {
-          -ms-flex-wrap: wrap;
-              flex-wrap: wrap; } }
-      @media screen and (max-width: 767px) {
-        .team__row--smallBlock {
-          -ms-flex-wrap: wrap;
-              flex-wrap: wrap; } }
-    .team__row--verticalBlocks {
-      -ms-flex-wrap: nowrap;
-          flex-wrap: nowrap; }
-      @media screen and (min-width: 768px) and (max-width: 991px) {
-        .team__row--verticalBlocks {
-          -ms-flex-wrap: wrap;
-              flex-wrap: wrap; } }
-      @media screen and (max-width: 767px) {
-        .team__row--verticalBlocks {
-          -webkit-box-flex: 0 !important;
-              -ms-flex: none !important;
-                  flex: none !important;
-          -ms-flex-wrap: wrap;
-              flex-wrap: wrap; } }
+    @media screen and (min-width: 768px) and (max-width: 991px) {
+      .team__row {
+        grid-template-columns: repeat(2, 1fr); } }
+    @media screen and (max-width: 767px) {
+      .team__row {
+        grid-template-columns: 1fr; } }
   .team__bigBlock {
     height: 62rem;
     margin: 2rem auto;
@@ -9543,11 +9532,11 @@ footer {
     line-height: 24px; }
   .team__block {
     background-color: #0063AE;
-    height: 70rem;
+    height: 80rem;
     max-width: 38rem; }
     @media screen and (min-width: 1200px) and (max-width: 1440px) {
       .team__block {
-        height: 56vw; } }
+        min-height: 80rem; } }
     @media screen and (min-width: 992px) and (max-width: 1199px) {
       .team__block {
         width: auto;
@@ -9556,7 +9545,7 @@ footer {
       .team__block {
         height: auto;
         margin: 2rem auto !important;
-        max-width: 48rem;
+        max-width: 32rem;
         width: 100%; } }
     @media screen and (max-width: 767px) {
       .team__block {
@@ -9573,7 +9562,7 @@ footer {
       -webkit-box-flex: 0;
           -ms-flex: 0 100%;
               flex: 0 100%;
-      height: 50%; }
+      height: 36rem; }
       @media screen and (min-width: 992px) and (max-width: 1199px) {
         .team__block .team__photo, .team__block .team__about {
           height: auto; } }
@@ -9616,77 +9605,23 @@ footer {
                 order: 1; } }
     @media screen and (min-width: 992px) and (max-width: 1199px) {
       .team__block .team__photo > img {
-        height: 26vw; } }
+        height: 45rem; } }
     .team__block .team__about {
       display: block;
       padding: 2.8rem; }
-      @media screen and (min-width: 768px) and (max-width: 991px) {
-        .team__block .team__about--swap {
-          -webkit-box-ordinal-group: 3;
-              -ms-flex-order: 2;
-                  order: 2; } }
-      @media screen and (max-width: 767px) {
-        .team__block .team__about--swap {
-          -webkit-box-ordinal-group: 3;
-              -ms-flex-order: 2;
-                  order: 2; } }
+      @media screen and (min-width: 1200px) {
+        .team__block .team__about {
+          padding: 2rem 2.8rem 4rem; } }
       @media screen and (min-width: 992px) and (max-width: 1199px) {
         .team__block .team__about {
-          height: 46rem; } }
+          min-height: 36rem; } }
+      @media screen and (max-width: 767px) {
+        .team__block .team__about {
+          padding: 2rem 2.8rem 4rem; } }
     .team__block .team__name {
       margin: 1rem auto 2rem; }
     .team__block .team__title {
       margin: 1rem auto; }
-    .team__block--vertical {
-      -webkit-box-flex: 0;
-          -ms-flex: 0 1 50%;
-              flex: 0 1 50%;
-      height: 98rem;
-      max-width: 144rem;
-      padding: 0;
-      width: 50%; }
-      @media screen and (min-width: 992px) and (max-width: 1199px) {
-        .team__block--vertical {
-          height: auto; } }
-      @media screen and (min-width: 768px) and (max-width: 991px) {
-        .team__block--vertical {
-          -webkit-box-flex: 0;
-              -ms-flex: 0 1 100%;
-                  flex: 0 1 100%;
-          height: auto;
-          max-width: 48rem;
-          width: 100%; } }
-      @media screen and (max-width: 767px) {
-        .team__block--vertical {
-          display: -webkit-box;
-          display: -ms-flexbox;
-          display: flex;
-          -webkit-box-flex: 0;
-              -ms-flex: none;
-                  flex: none;
-          height: auto;
-          max-width: 42rem;
-          min-width: 30rem;
-          width: 94%; } }
-      .team__block--vertical:first-child {
-        margin: 2rem 1rem 2rem 0; }
-      .team__block--vertical:last-child {
-        margin: 2rem 0 2rem 1rem; }
-      @media screen and (max-width: 767px) {
-        .team__block--vertical .team__about, .team__block--vertical .team__photo {
-          -webkit-box-flex: 0;
-              -ms-flex: 0 100%;
-                  flex: 0 100%;
-          height: 50%;
-          width: 100%; } }
-      .team__block--vertical .team__photo {
-        height: auto; }
-        @media screen and (min-width: 992px) and (max-width: 1199px) {
-          .team__block--vertical .team__photo > img {
-            height: auto; } }
-        @media screen and (max-width: 767px) {
-          .team__block--vertical .team__photo > img {
-            display: block; } }
 
 #contact {
   background: #0063AE;
